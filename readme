@@ -1,0 +1,27 @@
+ATS Tracker and Resume Evaluator
+Welcome to the ATS Tracker and Resume Evaluator project! This application is designed to help job seekers and HR professionals evaluate resumes against job descriptions using advanced text analysis and machine learning techniques. It provides two main functionalities: a professional evaluation of resumes and an ATS (Applicant Tracking System) score to determine how well a resume matches a job description.
+
+Key Features
+Resume Evaluation: Leverage Google's Gemini generative AI model to get a professional evaluation of how well a resume aligns with a given job description. The model highlights strengths and weaknesses in the resume relative to job requirements.
+
+ATS Scoring: Calculate the ATS score using TF-IDF and cosine similarity techniques. This score indicates the degree of match between the job description and the resume, expressed as a percentage. The application also identifies missing keywords that could improve the resume's compatibility with the job description.
+
+Text Extraction from PDF: Extracts text from uploaded PDF resumes using PyMuPDF, ensuring accurate analysis of resume content rather than relying on image-based text extraction.
+
+User-Friendly Interface: Built with Streamlit, the app features an intuitive and interactive user interface where users can input job descriptions, upload resumes, and receive detailed feedback.
+
+How It Works
+Input Job Description: Paste the job description into the provided text area.
+
+Upload Resume: Upload your resume in PDF format.
+
+Submit Requests:
+
+Evaluate Resume: Get a professional evaluation of the resume based on the job description.
+Calculate Percentage Match: Receive an ATS score showing the percentage match and insights into missing keywords.
+Technologies Used
+Python: Core programming language.
+Streamlit: Framework for creating interactive web applications.
+PyMuPDF (fitz): Library for text extraction from PDFs.
+Scikit-learn: For TF-IDF vectorization and cosine similarity calculation.
+Google Generative AI: For professional evaluation of resumes (Gemini model).

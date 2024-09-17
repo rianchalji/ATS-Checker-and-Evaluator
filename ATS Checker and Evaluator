@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import google.generativeai as genai
 
 # Set API key for Google Generative AI
-API_KEY = "AIzaSyCYJnNyzPqXH7O4yFeZP8UsJHYd8FqXLrs"
+API_KEY = "addyourapikey"
 genai.configure(api_key=API_KEY)
 
 def get_gemini_response(input_text, pdf_content, prompt):
